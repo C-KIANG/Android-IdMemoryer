@@ -13,5 +13,5 @@
 2.轮播和查找  
 ![轮播](https://github.com/C-KIANG/img-folder/blob/master/IdMemoryer/3.png)
 ![查找](https://github.com/C-KIANG/img-folder/blob/master/IdMemoryer/4.png)  
-### 服务器搭建操作：
+### 服务器搭建操作：https://github.com/C-KIANG/Server-IdMemoryer
 步骤较多，待传
