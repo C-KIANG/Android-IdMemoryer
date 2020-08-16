@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name">IdMemoryer</string>
+        <string name = "app_name_black"> app_name_black </string>
+        <string name = "nav_header_desc"> Navigation header </string>
+        <string name = "hello_blank_fragment"> Hello blank fragment </string>
+        <string name = "login"> Login </string>
+        <string name = "login_input_username_hint"> user name </string>
+        <string name = "hint_password"> password </string>
+        <string name = "login_hold_hint"> Automatic login </string>
+        <string name = "login_forget_hint"> Forgot your password? </string>
+        <string name = "login_register_hint"> Register </string>
+        <string name = "login_other_hint"> Other ways to log in </string>
+        <string name = "register_input_username_hint"> Mobile number </string>
+        <string name = "register_username_hint"> user name </string>
+        <string name = "register_sms_auth_code"> SMS verification code </string>
+        <string name = "register_sms_hint"> Get a verification code </string>
+        <string name = "loading_image"> Preparing image ... </string>
+        <string name = "register_done_hint"> Done </string>
+        <string name = "retrieve_pwd_step_hint"> Next step </string>
+        <string name = "retrieve_pwd_email_label">" <a> Click here </a>"</string>
+        <string name = "reset_pwd_hint"> Please enter at least six new passwords </string>
+        <string name = "register_pwd_hint"> Please enter a password of at least six digits </string>
+        <string name = "reset_pwd_submit"> Confirmation </string>
+        <string name = "message_pwd_error"> Incorrect password </string>
+        <string name = "message_username_null"> The username is missing!!! </string>
+    <string name="button_start">Start</string>
+    <string name="menu_contact">contact me</string>
+    <string name="item_select">select</string>
+    <string name="item_play">Carousel Learning</string>
+    <string name="item_exit">Exit</string>
+    <string name="button_accelerate">Speed up</string>
+    <string name="button_slowdown">speed down</string>
+    <string name="hint_name">Please enter your name</string>
+</resources>

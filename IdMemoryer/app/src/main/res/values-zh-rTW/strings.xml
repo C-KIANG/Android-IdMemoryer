@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">慧眼識人</string>
+    <string name="app_name_black">app_name_black</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">登錄</string>
+    <string name="login_input_username_hint">用戶名</string>
+    <string name="hint_password">密碼</string>
+    <string name="login_hold_hint">自動登錄</string>
+    <string name="login_forget_hint">忘記密碼？</string>
+    <string name="login_register_hint">註冊</string>
+    <string name="login_other_hint">其他方式登錄</string>
+    <string name="register_input_username_hint">手機號</string>
+    <string name="register_username_hint">用戶名</string>
+    <string name="register_sms_auth_code">短信验证码</string>
+    <string name="register_sms_hint">獲取驗證碼</string>
+    <string name="loading_image">正在準備圖片...</string>
+    <string name="register_done_hint">完成</string>
+    <string name="retrieve_pwd_step_hint">下一步</string>
+    <string name="retrieve_pwd_email_label"><a>點擊這裡</a></string>
+    <string name="reset_pwd_hint">請輸入至少六位新密碼</string>
+    <string name="register_pwd_hint">請輸入至少六位數密碼</string>
+    <string name="reset_pwd_submit">確認</string>
+    <string name="message_pwd_error">密碼錯誤</string>
+    <string name="message_username_null">用戶名未填寫！ ！ ！</string>
+    <string name="button_start">開始</string>
+    <string name="menu_contact">聯繫我</string>
+    <string name="item_select">查找</string>
+    <string name="item_play">輪播</string>
+    <string name="item_exit">退出</string>
+    <string name="button_accelerate">加速</string>
+    <string name="button_slowdown">減速</string>
+    <string name="hint_name">請輸入人名</string>
+</resources>

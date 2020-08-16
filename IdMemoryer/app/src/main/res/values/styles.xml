@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--这个要配置在清单文件中,佛则使用toolbar会闪退-->
+    <style name="CustomTheme" parent = "Theme.AppCompat.NoActionBar">
+        <item name="actionOverflowMenuStyle">@style/MainToolbarMenuStyle</item>
+        <!--<item name="actionOverflowButtonStyle">@style/MainOverflowButtonStyle</item>-->
+        <item name="drawerArrowStyle">@style/MainDrawerArrowToggle</item>
+    </style>
+
+    <!--自定义toolbar菜单样式-->
+    <style name="MainToolbarMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <!-- 是否覆盖锚点，默认为true，即盖住Toolbar -->
+        <item name="overlapAnchor">false</item>
+        <!-- 弹出层背景颜色 -->
+        <item name="android:popupBackground">@color/gray</item>
+        <!-- 弹出层垂直方向上的偏移，负值会覆盖toolbar -->
+        <item name="android:dropDownVerticalOffset">5dp</item>
+        <!-- 弹出层水平方向上的偏移，即距离屏幕左边的距离，负值会导致右边出现空隙 -->
+        <item name="android:dropDownHorizontalOffset">-2dp</item>
+        <!--文字颜色-->
+        <item name="android:textColor">@color/white</item>
+        <!-- 溢出菜单(三点)图标颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    //设置三点图标，需要取消注释上面“主界面标题栏”的代码
+    <!--<style name="MainOverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">-->
+        <!--<item name="android:src">@drawable/more</item>-->
+    <!--</style>-->
+
+    //设置左边箭头的图标颜色
+    <style name="MainDrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+
+    <!--values-19。v19开始有android:windowTranslucentStatus这个属性，这个属性为将状态-->
+    <style name="TranslucentStatusTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar"></style>
+
+</resources>
